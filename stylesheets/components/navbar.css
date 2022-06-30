@@ -26,3 +26,26 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 992px) {
+  .navbar-container {
+    width: 85vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-content-left {
+    font-size: 12px;
+    display: flex;
+  }
+
+  .navbar-content-right {
+    font-size: 12px;
+    display: flex;
+  }
+
+  .navbar-container {
+    width: 95vw;
+    padding: 20px 0;
+  }
+}

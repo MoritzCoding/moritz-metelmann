@@ -1,0 +1,90 @@
+.hero {
+  background-color: #CCDBDC;
+  padding: 15vh 0 10vh 0;
+  color: #1D1E2C;
+}
+
+.header {
+  width: 70vw;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-title {
+  margin: 0 0 0 4%;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.name {
+  font-size: 70px;
+  padding: 15px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.horizontal-divider {
+  border: 2px solid #1D1E2C;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .hero {
+    padding: 8vh 0 5vh 0;
+  }
+
+  .header {
+    width: 85vw;
+  }
+
+  .header-title {
+    margin: 0 0 0 4%;
+    font-size: 40px;
+  }
+
+  .name {
+    font-size: 55px;
+    padding: 5px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 5vh 0 3.5vh 0;
+  }
+
+  .header {
+    width: 95vw;
+  }
+
+  .header-title {
+    font-size: 30px;
+  }
+
+  .name {
+    font-size: 40px;
+    padding: 0;
+  }
+
+  .header-text {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero {
+    padding: 3vh 0 1.5vh 0;
+  }
+
+  .header-title {
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 30px;
+    padding: 0;
+  }
+}
